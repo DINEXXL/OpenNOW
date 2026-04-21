@@ -93,7 +93,8 @@ You'll need to add this repo into your flake.nix:
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     
-    opennow.url = "github:OpenCloudGaming/OpenNOW"; 
+    opennow.url = "github:OpenCloudGaming/OpenNOW";
+    opennow.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
