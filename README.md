@@ -120,7 +120,7 @@ Then add the package to your configuration:
 ```
 
 ```nix
-# Nix configuraion
+# Nix configuration
 {
   pkgs,
   inputs,
